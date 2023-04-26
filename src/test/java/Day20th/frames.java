@@ -32,7 +32,7 @@ public class frames extends Libraries {
 
 	@Test(priority = 1)
 	public void framesPageLoad() {
-		driver.get(objProperties.getProperty("ALertsUrl1"));
+		driver.get(objProperties.getProperty("FramesUrl1"));
 		// Thread.sleep(5000);
 		String TitleOfFramesPage = driver.getTitle();
 		Assert.assertEquals(TitleOfFramesPage, "Frames Practice - H Y R Tutorials");
